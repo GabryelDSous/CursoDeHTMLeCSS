@@ -1,1 +1,2 @@
-Ola não deu erro
+Os dados foram enviados!
+Aprenda PHP para saber o que fazer com eles.
