@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Minhas declarações gerais */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+html, body{
+width: 100vw;
+height: 100vh;
+background-color: #233eff;
+background-size: contain;
+background-repeat: no-repeat;
+}   
+
+h1{
+color: white;
+text-shadow: 2px 2px 0px #142392;
+padding: 10px;
+}
+/* Minhas declarações retrato */
+@media screen and (orientation: portrait){
+    body{
+    background-image: url("image/cev-portrait.jpg");
+    background-position: center bottom;
+    }
+}
+
+/* Minhas declarações paisagem */
+@media screen and (orientation: landscape) {
+    body{
+    background-image: url("image/cev-landscape.jpg");
+    background-position: left bottom;
+    }
+}
